@@ -7,7 +7,6 @@ namespace Empresa_Financeira
         public static void Main(String[] args)
         {
             bool respostaValida = false;
-
             do
             {
                 Console.WriteLine("Deseja cadastrar contrato de pessoa física ou jurídica?");
