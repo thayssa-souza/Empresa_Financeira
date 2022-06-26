@@ -26,6 +26,7 @@ namespace Empresa_Financeira
             Console.WriteLine($"Valor do contrato: R${Valor}");
             Console.WriteLine($"Prazo do contrato: {Prazo}");
             Console.WriteLine($"Valor da prestação: R${Prestacao}");
+
         }
     }
 }

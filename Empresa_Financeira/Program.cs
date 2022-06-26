@@ -7,11 +7,11 @@ namespace Empresa_Financeira
         public static void Main(String[] args)
         {
             bool respostaValida = false;
+
             do
             {
                 Console.WriteLine("Deseja cadastrar contrato de pessoa física ou jurídica?");
                 string resposta = Console.ReadLine().ToLower();
-
                 var pattern1 = @"^((fisica)|(física)|(pf)|(f)){1}$";
                 var pattern2 = @"^((juridica)|(jurídica)|(pj)|(j)){1}$";
                 Regex regex1 = new Regex(pattern1);

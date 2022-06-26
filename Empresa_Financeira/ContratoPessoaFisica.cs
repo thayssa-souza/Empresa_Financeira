@@ -70,6 +70,7 @@ namespace Empresa_Financeira
         {
             base.exibirInfo();
             Console.WriteLine($"Idade do contratante: {Idade()} anos.");
+
         }
     }
 }
